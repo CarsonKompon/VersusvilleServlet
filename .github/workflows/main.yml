@@ -25,8 +25,7 @@ jobs:
           host: ${{secrets.SSH_HOST}} # IP Address
           key: ${{secrets.SSH_KEY}} # Private or public key of the server
           user: ${{secrets.SSH_USERNAME}}
-          
-          script: |
+          command: |
             mkdir servlet
             cd servlet
             git clone git@github.com:CarsonKompon/VersusvilleServlet.git
