@@ -1,0 +1,25 @@
+{
+  "name": "versusville-servlet",
+  "version": "1.0.0",
+  "description": "An attempt at re-creating the servlet used for Kenny vs Spenny Versusville",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarsonKompon/VersusvilleServlet.git"
+  },
+  "author": "Carson Kompon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarsonKompon/VersusvilleServlet/issues"
+  },
+  "homepage": "https://github.com/CarsonKompon/VersusvilleServlet#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  }
+}
