@@ -25,6 +25,7 @@ jobs:
           host: ${{secrets.SSH_HOST}} # IP Address
           key: ${{secrets.SSH_KEY}} # Private or public key of the server
           user: ${{secrets.SSH_USERNAME}}
+          args: -tt
           command: |
             mkdir servlet
             cd servlet
