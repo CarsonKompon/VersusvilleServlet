@@ -1,7 +1,7 @@
 # VersusvilleServlet
-A reverse engineered version of the servlet used for Kenny vs Spenny Versusville. This is meant to be used with the [Versusville 202X Patch](https://github.com/carsonkompon/versusville202xpatch). For more information, join the [Kenny Hotz Official Discord](https://discord.gg/7cSJM2xbq7).
+A reverse engineered version of the servlet used for Kenny vs Spenny Versusville. This requires clients to be using the [Versusville 202X Patch](https://github.com/carsonkompon/versusville202xpatch). For more information, join the [Kenny Hotz Official Discord](https://discord.gg/7cSJM2xbq7) and visit [versusville.com](https://carsonkompon.github.io/VersusvilleSite/game_new.html)
 
-It's worth noting that this is a Versusville ***SERVLET*** and NOT a Versusville ***SERVER***. This is merely a database that holds profiles, highscores, and times. It's not required to play the game, and it's not required to connect to servers, but it's used to change your username in game and save/share highscores and view them at [versusville.com](https://versusville.com/scores_new.html)
+It's worth noting that this is a Versusville ***SERVLET*** and NOT a Versusville ***SERVER***. This is merely the database that holds profiles, highscores, and times. It's not required to play the game, and it's not required to connect to servers, but it's used to change your username in game and save/share highscores and view them at [versusville.com](https://carsonkompon.github.io/VersusvilleSite/scores_new.html)
 
 
 ## Getting Started
@@ -49,6 +49,8 @@ URL=http://<YOUR_IP_HERE>:3000/servlet
 ```
 
 Then you should be good to set your username and submit highscores to your custom servlet :)
+
+To view the scores/times saved on your servlet, visit [versusville.com](https://carsonkompon.github.io/VersusvilleSite/scores_new.html) and enter the ip of your servlet.
 
 
 
